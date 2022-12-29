@@ -1,0 +1,20 @@
+Getting yourself organzied with Orgmode
+
+Coursefiles
+
+These are the coursfiles for all lessons. Filenames
+follow the scheme
+
+sec-x.y-{start|end|}-$filename
+
+The files are just examples. The demo setup was
+done for a a user account joe with a directory
+"org".
+
+If files change during a lessons you can spot the
+difference by comparing the "start" and "end" version.
+
+CAUTION:
+The ".emacs" files are not meant to overwrite your own ".emacs"
+files. You should open them in Emacs and then copy/paste what
+code snippets you need to your own ".emacs" file.

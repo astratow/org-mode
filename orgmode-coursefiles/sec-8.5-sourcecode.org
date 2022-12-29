@@ -1,0 +1,50 @@
+* Shell
+
+#+BEGIN_SRC sh :dir /home/joe/org :results raw
+ls -l
+#+END
+
+* Dotfile
+
+#+BEGIN_SRC dot :file graph.png :cmdline -Kdot -Tpng
+digraph G {
+#rankdir=LR;
+new_idea [ label="CAPTURE" shape=box];
+someday [color = "red"];
+{rank=same; done, cancelled, forwarded}
+next [color="red"];
+todo [color="red"];
+repeat [color="red"];
+next -> repeat;
+next -> delegated;
+todo -> repeat;
+waiting [color="red"];
+delegated [color="red"];
+done [color="green"];
+cancelled [color="green"];
+forwarded [color="green"];
+new_idea -> someday;
+# new_idea -> next;
+new_idea -> todo;
+# new_idea -> repeat;
+repeat -> repeat;
+someday -> todo -> next;
+someday -> next;
+next -> waiting;
+waiting -> next;
+todo -> done;
+next -> done;
+repeat -> done;
+waiting -> done;
+todo -> cancelled;
+next -> cancelled;
+waiting -> cancelled;
+someday -> cancelled;
+todo -> delegated;
+delegated -> done;
+delegated -> cancelled;
+todo -> forwarded;
+}
+#+END_SRC
+#+RESULTS:
+

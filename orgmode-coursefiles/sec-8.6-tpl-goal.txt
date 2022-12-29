@@ -1,0 +1,10 @@
+* GOAL %^{Describe the goal}
+  Added on %U - Last reviewed on %U
+  :SMART:
+  :Sense:      %^{What is the sense of this goal?}
+  :Measurable: %^{How do you measure it?}
+  :Actions:    %^{What actions are needed?}
+  :Resources:  %^{Which resources do you need?}
+  :Timebox:    %^{How much time are you spending for it?}
+  :END:
+

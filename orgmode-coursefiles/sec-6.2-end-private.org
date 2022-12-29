@@ -1,0 +1,219 @@
+#+SEQ_TODO: REPEAT(r) NEXT(n@/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s@/!) PROJ(p) | DONE(d@) CANCELLED(c@)
+#+STARTUP: nologrepeat
+#+TAGS: PHONE(o) COMPUTER(c) SHOPPING(s) URGENT(u)
+#+ARCHIVE: %s_archive::
+#+COLUMNS: %58ITEM(Task) %7TODO %Effort(Time){:} %6CLOCKSUM(Clock)
+#+PROPERTY: Effort_ALL 0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+
+* GTD releated things
+  :PROPERTIES:
+  :ID:       94cc6a5c-d0ca-441c-894a-c894e3700020
+  :END:
+** REPEAT Weekly Review
+   SCHEDULED: <2020-09-12 Sa .+1w>
+   :PROPERTIES:
+   :ID:       67b6c5c6-f70f-4da0-b9ad-bb92e2924d67
+   :END:
+   :LOGBOOK:
+   - Rescheduled from "[2020-09-05 Sa .+1w]" on [2020-09-07 Mo 14:12]
+   - Rescheduled from "[2020-08-31 Mo .+1w]" on [2020-09-04 Fr 19:30]
+   :END:
+   :PROPERTIES:
+   
+
+* Links internal
+  :PROPERTIES:
+  :ID:       962ba77b-05c9-4295-a667-9317b545c779
+  :END:
+- Link to [[Maintenance]]
+- Link to [[House stuff][Things related to the house]]
+- Link to [[Bike project][My bicycle project]]
+- Link to [[#application]]
+
+<<<Grandma>>>
+Grandma is my grandmother.
+
+
+* Links external
+  :PROPERTIES:
+  :ID:       7755978f-4c4d-4b2b-b490-9f96b77cb542
+  :END:
+- Link to [[http://koenig-haunstetten.de][Rainer's blog]]
+- Link to [[id:b7a861db-3565-4173-bcf6-55ae437fd318][Create test plan item]]
+
+* Phone Calls                                                         :PHONE:
+  :PROPERTIES:
+  :ID:       ad4839a3-5e98-41e3-a5e8-ac3108c3079c
+  :END:
+** NEXT Call Grandma for her birthday                                   :NEW:
+   :PROPERTIES:
+   :ID:       44641b9d-939b-467f-994e-5959e856e0ee
+   :END:
+   Desired outcome: Grandma is happy
+   :LOGBOOK:
+   - State "NEXT"       from "TODO"       [2020-09-04 Fr 20:15] \\
+     To make it show up in the custom agenda view
+   - Added: [2020-09-04 Fr 20:13]
+   :END:
+
+
+* Maintenance                                                   :MAINTENANCE:
+  :PROPERTIES:
+  :ID:       c8fc5a99-af9a-43a7-830d-81c6bc230ace
+  :END:
+** REPEAT Check motor oil in the car
+   SCHEDULED: <2020-11-23 Mo ++12w>
+   :PROPERTIES:
+   :LOGGING: nil
+   :EFFORT:   0:10
+   :ID:       2feaf084-be20-47c3-bac2-3de0e63f7527
+   :END:
+   :CLOCKING:
+   CLOCK: [2020-09-09 Mi 14:31]--[2020-09-09 Mi 14:33] =>  0:02
+   CLOCK: [2020-09-08 Di 14:45]--[2020-09-08 Di 14:54] =>  0:09
+   :END:
+   :LOGBOOK:
+   - State "REPEAT"     from "TODO"       [2020-08-31 Mo 20:45]
+   :END:
+
+** PROJ Repair bicycle                                              :BICYCLE:
+   :PROPERTIES:
+   :ID:       79f762a0-e115-43f2-9b3d-de3c850160e4
+   :END:
+<<Bike project>>
+*** NEXT Order spare part (chain)                           :SHOPPING:URGENT:
+    SCHEDULED: <2020-09-21 Mo>
+    :PROPERTIES:
+    :EFFORT:   0:20
+    :ID:       186f85cd-d29c-402c-8b79-f01b4338198e
+    :END:
+    :LOGBOOK:
+    - Rescheduled from "[2020-08-31 Mo]" on [2020-09-07 Mo 14:12]
+    :END:
+    - order it from an online shop
+*** TODO Mount chain
+    :PROPERTIES:
+    :EFFORT:   1:00
+    :ID:       2b79d2f2-2222-4b71-bf63-70d5b85938ba
+    :END:
+    - you need to adjust the gear shifting
+
+
+* House stuff                                                         :HOUSE:
+  :PROPERTIES:
+  :ID:       7dc87200-dc8c-43b8-8958-4ae2c751a8da
+  :END:
+** PROJ Build a house                                               :ORDERED:
+   :PROPERTIES:
+   :ORDERED:  t
+   :ID:       5aff2d8c-f111-427f-9050-e58fc981370d
+   :END:
+*** DONE Build the basement
+    SCHEDULED: <2020-09-07 Mo>
+    :PROPERTIES:
+    :ID:       4add40d4-99f8-4cf5-8020-7026fd80d3c4
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:29] \\
+      Finished
+    :END:
+*** DONE Build the ground floor
+    SCHEDULED: <2020-09-08 Di>
+    :PROPERTIES:
+    :ID:       1ff72af1-f05a-4931-9392-8793d0cd0cc3
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:29]
+    :END:
+*** DONE Build the roof
+    SCHEDULED: <2020-09-09 Mi>
+    :PROPERTIES:
+    :ID:       2192fcc7-5c73-44e3-8619-abd4c2f26a55
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:30] \\
+      everything done
+    - State "TODO"       from "DONE"       [2020-09-07 Mo 14:24]
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:23]
+    :END:
+*** DONE Install doors and windws [5/5]
+    SCHEDULED: <2020-09-10 Do>
+    :PROPERTIES:
+    :ID:       c94f2c28-2571-4df1-9899-0886faaac169
+    :END:
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:31] \\
+      Finished.
+    :END:
+    - [X] Front door
+    - [X] Back door
+    - [X] Basement windows
+    - [X] Ground floor windows
+    - [X] Roof windows
+
+
+* Books to read
+  :PROPERTIES:
+  :ID:       769c92df-73dd-46bd-ae4a-f84a210d220d
+  :END:
+** SOMEDAY Book: Chris Guillebeau - The $100 Startup
+   :PROPERTIES:
+   :Author:   Chris Guillebeau
+   :Title:    The $100 Startup
+   :ID:       1fcbf4c0-ce75-476e-ae98-a298d38638b5
+   :END:
+   - Recommendedd by: Katrin
+   :LOGBOOK:
+   - Added: [2020-09-04 Fr 20:45]
+   :END:
+
+
+* Passion project
+  :PROPERTIES:
+  :ID:       635400e8-3b31-4cfb-982c-2cb1aa678a76
+  :END:
+
+** TODO Write a book about orgmode                                      :NEW:
+   :PROPERTIES:
+   :ID:       d5422748-1ff0-49d5-8698-9d331d71a2da
+   :END:
+   :CLOCKING:
+   CLOCK: [2020-09-08 Di 14:43]--[2020-09-08 Di 14:53] =>  0:10
+   CLOCK: [2020-09-08 Di 14:41]--[2020-09-08 Di 14:42] =>  0:01
+   :END:
+   Desired outcome: Book is published
+   Do not forget to thank Grandma
+   :LOGBOOK:
+   - Added: [2020-09-04 Fr 20:16]
+   :END:
+
+** NEXT Implement Application
+   :PROPERTIES:
+   :CUSTOM_ID: application
+   :ID:       849b0c2e-6b79-43d4-96ee-e246d6147162
+   :END: 
+   :CLOCKING:
+   CLOCK: [2020-07-31 Mi 19:01]--[2020-07-31 Mi 19:29] =>  0:28
+   CLOCK: [2020-07-29 Mo 19:48]--[2020-07-29 Mo 20:17] =>  0:29
+   CLOCK: [2020-07-27 Sa 19:48]--[2020-07-27 Sa 20:16] =>  0:28
+   CLOCK: [2020-07-25 Do 17:19]--[2020-07-25 Do 17:48] =>  0:29
+   CLOCK: [2020-07-23 Di 19:45]--[2020-07-23 Di 20:11] =>  0:26
+   CLOCK: [2020-07-21 So 19:41]--[2020-07-21 So 20:08] =>  0:27
+   CLOCK: [2020-07-19 Fr 20:52]--[2020-07-19 Fr 21:17] =>  0:25
+   CLOCK: [2020-07-17 Mi 20:03]--[2020-07-17 Mi 20:32] =>  0:29
+   CLOCK: [2020-07-15 Mo 19:25]--[2020-07-15 Mo 19:56] =>  0:31
+   CLOCK: [2020-07-13 Sa 18:34]--[2020-07-13 Sa 19:00] =>  0:26
+   CLOCK: [2020-07-11 Do 19:59]--[2020-07-11 Do 20:27] =>  0:28
+   CLOCK: [2020-07-09 Di 20:08]--[2020-07-09 Di 20:33] =>  0:25
+   CLOCK: [2020-07-07 So 19:47]--[2020-07-07 So 20:14] =>  0:27
+   CLOCK: [2020-07-05 Fr 20:40]--[2020-07-05 Fr 21:06] =>  0:26
+   CLOCK: [2020-07-03 Mi 19:25]--[2020-07-03 Mi 19:52] =>  0:27
+   CLOCK: [2020-07-01 Mo 19:40]--[2020-07-01 Mo 20:05] =>  0:25
+   CLOCK: [2020-06-29 Sa 20:17]--[2020-06-29 Sa 20:43] =>  0:26
+   CLOCK: [2020-06-27 Do 19:21]--[2020-06-27 Do 19:46] =>  0:25
+   :END:
+
+* Capture
+  :PROPERTIES:
+  :ID:       511ce48e-e4b8-4bbe-96b6-6c03811636ab
+  :END:

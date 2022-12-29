@@ -1,0 +1,9 @@
+#+STARTUP: hidestars
+
+* 2020
+** 2020-09 September
+*** 2020-09-04 Freitag
+**** [2020-09-04 Fr 20:42] - I'm journaling now
+This is my first Journal entry.
+**** [2020-09-04 Fr 20:43] - My second journal entry
+This is the text of my second journal entry.

@@ -1,0 +1,29 @@
+#+OPTIONS: toc:nil ^:nil tags:t f:t
+#+AUTHOR: Rainer König
+#+TITLE: Getting yourself organized with OrgMode
+#+SUBTITLE: Advanced exporting
+#+DESCRIPTION: More advanced exporting examples. Some more options to play around with.
+#+BEAMER_THEME: Berlin
+#+BEAMER_FONT_THEME: professionalfonts
+
+* Customize new backends
+- Customize group "org-export" and there "org-export-backends"
+  + Enable "beamer" for LaTeX beamer support[fn:1] 
+  + Enable "odt" for export to OpenDocument Text 
+
+[fn:1] This file was created with beamer export.
+
+* Useful options
+
+Additional *#+OPTIONS:* (with "nil" or "t")
+
+| Option                     | What does it do?                   |
+|----------------------------+------------------------------------|
+| toc                        | Enable Table of contents           |
+| ^                          | enable sub/superscripting          |
+|                            | (used it here for BEAMER_THEME)    |
+| tags                       | Export tags                        |
+| f                          | Export footnotes (used on slide 2) |
+| @@latex:\textbackslash n@@ | Toggle line break preservation     |
+
+More options can be found in the manual. 

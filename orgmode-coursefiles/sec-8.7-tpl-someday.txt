@@ -1,0 +1,5 @@
+* SOMEDAY %^{Description} :NEW:
+  Desired outcome: %?
+  :LOGBOOK:
+  - Added: %U
+  :END:

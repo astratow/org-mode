@@ -1,0 +1,75 @@
+#+SEQ_TODO: REPEAT(r) NEXT(n@/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s@/!) PROJ(p) | DONE(d@) CANCELLED(c@)
+#+STARTUP: nologrepeat
+#+TAGS: PHONE(o) COMPUTER(c) SHOPPING(s) URGENT(u)
+#+ARCHIVE: %s_archive::
+#+PRIORITIES: 1 5 3
+
+* GTD releated things
+  :PROPERTIES:
+  :ID:       85b86ee4-d4e6-4fde-b490-64a3c20dfc0e
+  :END:
+** REPEAT [#4] Weekly Review
+   SCHEDULED: <2020-09-18 Fr .+1w>
+   :PROPERTIES:
+   :ID:       c602b541-4d13-4cb6-bcfa-e5efdb84deb9
+   :END:
+   :LOGBOOK:
+   - Rescheduled from "[2020-08-31 Mo .+1w]" on [2020-09-07 Mo 14:12]
+   :END:
+   :PROPERTIES:
+   
+
+* Backlevel IT-Support
+  :PROPERTIES:
+  :ID:       5018c082-67ba-44a0-960c-9e5c2d40fa13
+  :END:
+** TODO [#2] Nancy needs help with printer setup
+   :PROPERTIES:
+   :ID:       286583b0-834d-4ac8-abe3-129ddf82248b
+   :END:
+** TODO [#5] Mike wants more mail space
+   :PROPERTIES:
+   :ID:       93973837-ac1e-4f09-b584-c6fc18f21f1d
+   :END:
+
+
+* Development 
+  :PROPERTIES:
+  :ID:       1b4d5cc1-5297-4bc4-ba05-22df0f831d56
+  :END:
+** TODO [#3] Adapt latest kernel updates to our driver
+   :PROPERTIES:
+   :ID:       189b418e-c2b9-4ce6-abc8-2232a3f3cb65
+   :END:
+** TODO [#2] Create test plan for application
+   :PROPERTIES:
+   :ID:       b7a861db-3565-4173-bcf6-55ae437fd318
+   :END:
+
+
+- Link to [[id:09e27da3-72f3-429d-b520-f6ba0b6c66d5][Clean dishwasher]]
+
+
+* Orgmode course
+** TODO [#2] Review course book                                      :ATTACH:
+   :PROPERTIES:
+   :ID:       fe0fa782-0c66-4bd4-8ef6-5a8bd672fb6e
+   :END:
+   - [[attachment:main.pdf]]
+*** TODO Draw illustration
+
+
+** TODO [#1] Read org manual
+   :PROPERTIES:
+   :ID:       0c6ba172-a912-4a0e-be01-b4a2255f7645
+   :END:
+
+* Tables 
+
+#+CONSTANTS: year=2020
+| Name   | Year of birth | Age |
+|--------+---------------+-----|
+| Rainer |          1961 |  59 |
+| Joe    |          1995 |  25 |
+| Mike   |          1937 |  83 |
+#+TBLFM: $3=$year-$2

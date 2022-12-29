@@ -1,0 +1,63 @@
+#+SEQ_TODO: REPEAT(r) NEXT(n@/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s@/!) PROJ(p) | DONE(d@) CANCELLED(c@)
+#+STARTUP: nologrepeat
+#+TAGS: PHONE(o) COMPUTER(c) SHOPPING(s) URGENT(u)
+#+ARCHIVE: %s_archive::
+
+* GTD releated things
+** REPEAT Weekly Review
+   SCHEDULED: <2020-08-31 Mo .+1w>
+   :PROPERTIES:
+   :LAST_REPEAT: [2020-08-24 Mo 20:47]
+   :END:
+
+   - State "DONE"       from "REPEAT"     [2020-08-24 Mo 20:47]
+* Legal obligations
+** DONE Call tax lawyer after documents were sent                     :PHONE:
+   SCHEDULED: <2020-09-01 Di>
+   :LOGBOOK:
+   - Note taken on [2020-08-30 So 19:44] \\
+     Forgot to ask him for advice about xyz.
+   - Note taken on [2020-08-30 So 19:43] \\
+     Called the lawyer, we agreed that everything is fine.
+   :END: 
+** DONE Other Phone call to grandma                                   :PHONE:
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2020-08-31 Mo 20:43] \\
+     Called Grandma, she was happy to chat.
+   :END:
+
+* Maintenance                                                   :MAINTENANCE:
+** REPEAT Clean Dishwasher 
+   DEADLINE: <2020-11-21 Sa ++12w>
+   - Use machine cleaner at the highest temperature
+
+** REPEAT Check motor oil in the car
+   SCHEDULED: <2020-11-23 Mo ++12w>
+   :PROPERTIES:
+   :LOGGING: nil
+   :END:
+   :LOGBOOK:
+   - State "REPEAT"     from "TODO"       [2020-08-31 Mo 20:45]
+   :END:
+
+** PROJ Repair bicycle                                              :BICYCLE:
+*** NEXT Order spare part (chain)                           :SHOPPING:URGENT:
+    SCHEDULED: <2020-08-31 Mo>
+    - order it from an online shop
+*** TODO Mount chain
+    - you need to adjust the gear shifting
+* Books to read
+:PROPERTIES:
+:ARCHIVE: track-read-books.org::* Read books
+:END:
+* House stuff                                                         :HOUSE:
+** PROJ Build a bike port in the garden                             :BICYCLE:
+   - Budget is $200 for the whole thing
+*** TODO Decide about the colour 
+    SCHEDULED: <2020-08-30 So>
+*** TODO Get the paint in the chosen color
+    SCHEDULED: <2020-09-07 Mo>
+    :LOGBOOK:
+    - Rescheduled from "[2020-08-31 Mo]" on [2020-08-31 Mo 20:49]
+    :END:
+

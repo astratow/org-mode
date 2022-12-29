@@ -1,0 +1,8 @@
+#+TITLE: Welcome to my homepage
+#+AUTHOR: Joe the test user
+
+* General
+
+** What do you find here
+- [[file:about.org][Infos about me]]
+

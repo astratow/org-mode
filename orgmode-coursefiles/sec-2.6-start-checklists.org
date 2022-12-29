@@ -1,0 +1,9 @@
+#+SEQ_TODO: REPEAT(r) NEXT(n) TODO(t) WAITING(w) SOMEDAY(s) PROJ(p) | DONE(d) CANCELLED(c)
+#+STARTUP: nologrepeat
+
+* NEXT New membership of John Doe [/]
+- [ ] Enter membership data into database
+- [ ] Generate welcome letter from database
+- [ ] Generate bill for membership fees
+- [ ] Send welcome letter and bill
+

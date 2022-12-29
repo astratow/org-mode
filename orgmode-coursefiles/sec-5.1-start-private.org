@@ -1,0 +1,83 @@
+#+SEQ_TODO: REPEAT(r) NEXT(n@/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s@/!) PROJ(p) | DONE(d@) CANCELLED(c@)
+#+STARTUP: nologrepeat
+#+TAGS: PHONE(o) COMPUTER(c) SHOPPING(s) URGENT(u)
+#+ARCHIVE: %s_archive::
+
+* GTD releated things
+** REPEAT Weekly Review
+   SCHEDULED: <2020-09-12 Sa .+1w>
+   :LOGBOOK:
+   - Rescheduled from "[2020-09-05 Sa .+1w]" on [2020-09-07 Mo 14:12]
+   - Rescheduled from "[2020-08-31 Mo .+1w]" on [2020-09-04 Fr 19:30]
+   :END:
+   :PROPERTIES:
+   
+* Phone Calls                                                         :PHONE:
+** NEXT Call Grandma for her birthday                                   :NEW:
+   Desired outcome: Grandma is happy
+   :LOGBOOK:
+   - State "NEXT"       from "TODO"       [2020-09-04 Fr 20:15] \\
+     To make it show up in the custom agenda view
+   - Added: [2020-09-04 Fr 20:13]
+   :END:
+
+
+* Maintenance                                                   :MAINTENANCE:
+** REPEAT Clean Dishwasher 
+   DEADLINE: <2020-11-21 Sa ++12w>
+   - Use machine cleaner at the highest temperature
+
+** REPEAT Check motor oil in the car
+   SCHEDULED: <2020-11-23 Mo ++12w>
+   :PROPERTIES:
+   :LOGGING: nil
+   :END:
+   :LOGBOOK:
+   - State "REPEAT"     from "TODO"       [2020-08-31 Mo 20:45]
+   :END:
+
+** PROJ Repair bicycle                                              :BICYCLE:
+*** NEXT Order spare part (chain)                           :SHOPPING:URGENT:
+    SCHEDULED: <2020-09-21 Mo>
+    :LOGBOOK:
+    - Rescheduled from "[2020-08-31 Mo]" on [2020-09-07 Mo 14:12]
+    :END:
+    - order it from an online shop
+*** TODO Mount chain
+    - you need to adjust the gear shifting
+
+
+* House stuff                                                         :HOUSE:
+** PROJ Build a house
+*** TODO Build the basement
+    SCHEDULED: <2020-09-07 Mo>
+*** TODO Build the ground floor
+    SCHEDULED: <2020-09-08 Di>
+*** TODO Build the roof
+    SCHEDULED: <2020-09-09 Mi>
+*** TODO Install doors and windws [0/5]
+    SCHEDULED: <2020-09-10 Do>
+    - [ ] Front door
+    - [ ] Back door
+    - [ ] Basement windows
+    - [ ] Ground floor windows
+    - [ ] Roof windows
+
+* Books to read
+** SOMEDAY Book: Chris Guillebeau - The $100 Startup
+   :PROPERTIES:
+   :Author:   Chris Guillebeau
+   :Title:    The $100 Startup
+   :END:
+   - Recommendedd by: Katrin
+   :LOGBOOK:
+   - Added: [2020-09-04 Fr 20:45]
+   :END:
+
+
+* Capture
+** TODO Write a book about orgmode                                      :NEW:
+   Desired outcome: Book is published
+   :LOGBOOK:
+   - Added: [2020-09-04 Fr 20:16]
+   :END:

@@ -1,0 +1,14 @@
+* Level 1 headline
+** Level 2 headline A
+   This is some text belonging to the level 2
+   headline A.
+** Level 2 headline B
+   This is another text belonging to the level 2
+   headline B.
+
+* Another level 1 headline
+** Another level 2 headline number 1
+** Another level 2 headline number 2
+*** This is level 3 headline number 1
+*** This is level 3 headline number 2
+** Another level 2 headline number 3

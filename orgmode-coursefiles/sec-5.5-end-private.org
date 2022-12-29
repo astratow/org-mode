@@ -1,0 +1,151 @@
+#+SEQ_TODO: REPEAT(r) NEXT(n@/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s@/!) PROJ(p) | DONE(d@) CANCELLED(c@)
+#+STARTUP: nologrepeat
+#+TAGS: PHONE(o) COMPUTER(c) SHOPPING(s) URGENT(u)
+#+ARCHIVE: %s_archive::
+#+COLUMNS: %58ITEM(Task) %7TODO %Effort(Time){:} %6CLOCKSUM(Clock)
+#+PROPERTY: Effort_ALL 0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+
+* GTD releated things
+** REPEAT Weekly Review
+   SCHEDULED: <2020-09-12 Sa .+1w>
+   :LOGBOOK:
+   - Rescheduled from "[2020-09-05 Sa .+1w]" on [2020-09-07 Mo 14:12]
+   - Rescheduled from "[2020-08-31 Mo .+1w]" on [2020-09-04 Fr 19:30]
+   :END:
+   :PROPERTIES:
+   
+
+* Phone Calls                                                         :PHONE:
+** NEXT Call Grandma for her birthday                                   :NEW:
+   Desired outcome: Grandma is happy
+   :LOGBOOK:
+   - State "NEXT"       from "TODO"       [2020-09-04 Fr 20:15] \\
+     To make it show up in the custom agenda view
+   - Added: [2020-09-04 Fr 20:13]
+   :END:
+
+
+* Maintenance                                                   :MAINTENANCE:
+** REPEAT Clean Dishwasher 
+   DEADLINE: <2020-11-21 Sa ++12w>
+   :PROPERTIES:
+   :EFFORT:   0:30
+   :END:
+   - Use machine cleaner at the highest temperature
+
+** REPEAT Check motor oil in the car
+   SCHEDULED: <2020-11-23 Mo ++12w>
+   :PROPERTIES:
+   :LOGGING: nil
+   :EFFORT:   0:10
+   :END:
+   :CLOCKING:
+   CLOCK: [2020-09-09 Mi 14:31]--[2020-09-09 Mi 14:33] =>  0:02
+   CLOCK: [2020-09-08 Di 14:45]--[2020-09-08 Di 14:54] =>  0:09
+   :END:
+   :LOGBOOK:
+   - State "REPEAT"     from "TODO"       [2020-08-31 Mo 20:45]
+   :END:
+
+** PROJ Repair bicycle                                              :BICYCLE:
+*** NEXT Order spare part (chain)                           :SHOPPING:URGENT:
+    SCHEDULED: <2020-09-21 Mo>
+    :PROPERTIES:
+    :EFFORT:   0:20
+    :END:
+    :LOGBOOK:
+    - Rescheduled from "[2020-08-31 Mo]" on [2020-09-07 Mo 14:12]
+    :END:
+    - order it from an online shop
+*** TODO Mount chain
+    :PROPERTIES:
+    :EFFORT:   1:00
+    :END:
+    - you need to adjust the gear shifting
+
+
+* House stuff                                                         :HOUSE:
+** PROJ Build a house                                               :ORDERED:
+   :PROPERTIES:
+   :ORDERED:  t
+   :END:
+*** DONE Build the basement
+    SCHEDULED: <2020-09-07 Mo>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:29] \\
+      Finished
+    :END:
+*** DONE Build the ground floor
+    SCHEDULED: <2020-09-08 Di>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:29]
+    :END:
+*** DONE Build the roof
+    SCHEDULED: <2020-09-09 Mi>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:30] \\
+      everything done
+    - State "TODO"       from "DONE"       [2020-09-07 Mo 14:24]
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:23]
+    :END:
+*** DONE Install doors and windws [5/5]
+    SCHEDULED: <2020-09-10 Do>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-09-07 Mo 14:31] \\
+      Finished.
+    :END:
+    - [X] Front door
+    - [X] Back door
+    - [X] Basement windows
+    - [X] Ground floor windows
+    - [X] Roof windows
+
+
+* Books to read
+** SOMEDAY Book: Chris Guillebeau - The $100 Startup
+   :PROPERTIES:
+   :Author:   Chris Guillebeau
+   :Title:    The $100 Startup
+   :END:
+   - Recommendedd by: Katrin
+   :LOGBOOK:
+   - Added: [2020-09-04 Fr 20:45]
+   :END:
+
+
+* Passion project
+
+** TODO Write a book about orgmode                                      :NEW:
+   :CLOCKING:
+   CLOCK: [2020-09-08 Di 14:43]--[2020-09-08 Di 14:53] =>  0:10
+   CLOCK: [2020-09-08 Di 14:41]--[2020-09-08 Di 14:42] =>  0:01
+   :END:
+   Desired outcome: Book is published
+   :LOGBOOK:
+   - Added: [2020-09-04 Fr 20:16]
+   :END:
+
+** NEXT Implement Application
+   :CLOCKING:
+   CLOCK: [2020-07-31 Mi 19:01]--[2020-07-31 Mi 19:29] =>  0:28
+   CLOCK: [2020-07-29 Mo 19:48]--[2020-07-29 Mo 20:17] =>  0:29
+   CLOCK: [2020-07-27 Sa 19:48]--[2020-07-27 Sa 20:16] =>  0:28
+   CLOCK: [2020-07-25 Do 17:19]--[2020-07-25 Do 17:48] =>  0:29
+   CLOCK: [2020-07-23 Di 19:45]--[2020-07-23 Di 20:11] =>  0:26
+   CLOCK: [2020-07-21 So 19:41]--[2020-07-21 So 20:08] =>  0:27
+   CLOCK: [2020-07-19 Fr 20:52]--[2020-07-19 Fr 21:17] =>  0:25
+   CLOCK: [2020-07-17 Mi 20:03]--[2020-07-17 Mi 20:32] =>  0:29
+   CLOCK: [2020-07-15 Mo 19:25]--[2020-07-15 Mo 19:56] =>  0:31
+   CLOCK: [2020-07-13 Sa 18:34]--[2020-07-13 Sa 19:00] =>  0:26
+   CLOCK: [2020-07-11 Do 19:59]--[2020-07-11 Do 20:27] =>  0:28
+   CLOCK: [2020-07-09 Di 20:08]--[2020-07-09 Di 20:33] =>  0:25
+   CLOCK: [2020-07-07 So 19:47]--[2020-07-07 So 20:14] =>  0:27
+   CLOCK: [2020-07-05 Fr 20:40]--[2020-07-05 Fr 21:06] =>  0:26
+   CLOCK: [2020-07-03 Mi 19:25]--[2020-07-03 Mi 19:52] =>  0:27
+   CLOCK: [2020-07-01 Mo 19:40]--[2020-07-01 Mo 20:05] =>  0:25
+   CLOCK: [2020-06-29 Sa 20:17]--[2020-06-29 Sa 20:43] =>  0:26
+   CLOCK: [2020-06-27 Do 19:21]--[2020-06-27 Do 19:46] =>  0:25
+   :END:
+
+
+* Capture
